@@ -1,11 +1,4 @@
 package com.example.employeeShiftScheduling
-import ai.timefold.solver.test.api.score.stream.ConstraintVerifier
-import com.example.employeeShiftScheduling.model.Employee
-import com.example.employeeShiftScheduling.model.Shift
-import com.example.employeeShiftScheduling.model.ShiftSchedule
-import org.junit.jupiter.api.Test
-import java.time.LocalDate
-
 
 
 //class ShiftScheduleConstraintProviderUnitTest {

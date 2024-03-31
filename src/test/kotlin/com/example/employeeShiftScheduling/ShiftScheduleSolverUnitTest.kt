@@ -6,14 +6,12 @@ import ai.timefold.solver.core.api.solver.Solver
 import ai.timefold.solver.core.api.solver.SolverFactory
 import ai.timefold.solver.core.config.solver.SolverConfig
 import ai.timefold.solver.core.config.solver.termination.TerminationConfig
-import com.example.employeeShiftScheduling.model.Employee
 import com.example.employeeShiftScheduling.model.Shift
 import com.example.employeeShiftScheduling.model.ShiftSchedule
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
-import java.time.Duration
 import java.time.LocalDate
 
 class ShiftScheduleSolverUnitTest {
